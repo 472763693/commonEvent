@@ -1,0 +1,10 @@
+clientX clientY
+以当前窗口为基准点
+//以可视区域为基准点[类似固定定位]
+
+pageX pageY [低版本浏览器不支持]
+以当前文档为基准点
+//以文档document为基准点[类似绝对定位]
+
+screenX screenY
+以当前屏幕为基准点[类似相对定位]

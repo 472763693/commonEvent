@@ -1,0 +1,9 @@
+拖动事件：
+
+鼠标按下，然后移动鼠标；
+
+eg:
+
+oDiv.onmousedown = function (){
+	document.ommousemove = function (){};
+};

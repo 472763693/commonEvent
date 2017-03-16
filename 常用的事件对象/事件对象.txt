@@ -1,0 +1,38 @@
+事件 onmouseover、onmouseout、onclick、onchange
+
+
+event //事件 的意思
+      //普通浏览器支持event
+      //ie6、7、8支持window.event
+
+事件对象：
+在触发DOM的某个事件时，会产生一个事件对象event，这个对象中包含着所有与事件有关的信息。所有浏览器都支持event对象，但支持的方式不同。
+
+eg:鼠标操作时候，会添加鼠标位置的相关信息到事件对象中
+
+
+
+event常用的属性：
+
+data    //返回拖拽对象的url字符串[dragDrop]；
+
+width   //该窗口或框架的宽度
+height  //该窗口或框架的高度
+
+pageX   //光标相对于该网页的水平位置[ie无]
+pageY   //光标相对于该网页的垂直位置[ie无]
+
+screenX //光标相对于该屏幕的水平位置
+screenY //光标相对于该屏幕的垂直位置
+
+target  //该事件被传送到的对象
+
+type    //事件的类型
+
+//【clientX、clientY 属性无兼容问题】
+clientX //鼠标光标相对于该网页的水平位置[当前可见区域]
+clientY //鼠标光标相对于该网页的垂直位置
+
+【//ie低版本
+window.event.clientX;
+window.event.clientY;】
